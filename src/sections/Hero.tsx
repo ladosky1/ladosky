@@ -69,8 +69,7 @@ function Hero() {
             variants={fadeUp}
             className="mt-7 max-w-xl text-base leading-7 text-(--color-text-muted) md:text-lg"
           >
-            Building real products, learning through the process, and
-            improving with every version i work on.
+           Building real products, learning through the process, and improving with every version I work on. This portfolio documents that journey and it will evolve as I keep building and learning.
           </motion.p>
 
           <motion.div
