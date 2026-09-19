@@ -4,7 +4,7 @@ import {
 } from "@tabler/icons-react";
 import { motion } from "motion/react";
 import { mySocials } from "../data/social";
-import portrait from "../assets/images/me/mee.jpeg";
+import portrait from "../assets/images/me/Mee2.png";
 import {
   fadeUp,
   fadeIn,
