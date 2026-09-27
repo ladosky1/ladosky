@@ -9,17 +9,17 @@ export type BuilderLabItem = {
 
 export const buildersLab: BuilderLabItem[] = [
   {
-    projectId: "pulsehub",
-    currentVersion: "V1",
+    projectId: "AnimeLad",
+    currentVersion: "V2",
     status: ["shipped", "evolving"],
     currentFocus:
-      "Improving the real-time experience and continuing to refine the production setup.",
+      "Improving the full anime search and better watchlist experience.",
     next: [
-      "Media uploads",
       "Improve mobile usability",
-      "Continue refining community features",
-      "Complete production email infrastructure",
+      "Implement better search and filtering",
+      "Discard backend auth system and use local storage for watchlist",
+      "Improve the overall UI and UX of the application",
     ],
-    nextMilestone: "V2",
+    nextMilestone: "V3",
   },
 ];

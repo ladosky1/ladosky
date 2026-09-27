@@ -100,7 +100,6 @@ export const projects: Project[] = [
       "Improve the UI and overall UX",
       "Refine the authentication experience",
       "Complete and improve the watchlist experience",
-      "Add complete authentication and authorization flows",
     ],
 
     links: [

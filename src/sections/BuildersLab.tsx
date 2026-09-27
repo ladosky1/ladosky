@@ -110,7 +110,7 @@ function BuildIllustration() {
           </p>
 
           <p className="mt-1 font-serif text-xl font-semibold text-white md:text-2xl">
-            PulseHUB
+            AnimeLad
           </p>
         </div>
 
@@ -134,13 +134,11 @@ function BuildersLab() {
       className="relative overflow-hidden px-6 pb-8 pt-6 md:pb-10 md:pt-8">
       <div
         className="pointer-events-none absolute -left-40 top-20 h-105 w-105 rounded-full bg-(--color-accent)/5 blur-[120px]"
-        aria-hidden="true"
-      />
+        aria-hidden="true"/>
 
       <div
         className="pointer-events-none absolute -right-32 -top-8 h-130 w-130 rounded-full bg-(--color-accent)/7 blur-[130px]"
-        aria-hidden="true"
-      />
+        aria-hidden="true"/>
 
       <div className="relative mx-auto max-w-7xl">
         <div className="relative mb-8 md:mb-10">
@@ -175,8 +173,7 @@ function BuildersLab() {
             return (
               <article
                 key={item.projectId}
-                className="rounded-2xl border border-(--color-border) bg-(--color-surface) p-5 md:p-6"
-              >
+                className="rounded-2xl border border-(--color-border) bg-(--color-surface) p-5 md:p-6">
 
                 <div className="grid gap-8 md:grid-cols-[1.05fr_0.95fr] md:items-stretch md:gap-10">
                   <div className="flex flex-col">

@@ -18,8 +18,7 @@ function Hero() {
   return (
     <section
       id="home"
-      className="relative px-6 pb-20 pt-5 md:min-h-[calc(100vh-80px)] md:py-16"
-    >
+      className="relative px-6 pb-20 pt-5 md:min-h-[calc(100vh-80px)] md:py-16">
       <div
         aria-hidden="true"
         className="pointer-events-none absolute inset-0 z-0 hidden opacity-[0.035] md:block"
@@ -159,7 +158,7 @@ function Hero() {
                     Current work
                   </p>
                   <p className="mt-0.5 text-xs font-semibold text-white">
-                    PulseHUB
+                    AnimeLad
                   </p>
                 </div>
               </div>
