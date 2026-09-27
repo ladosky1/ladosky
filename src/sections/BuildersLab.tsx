@@ -165,7 +165,7 @@ function BuildersLab() {
         <div className="space-y-6">
           {buildersLab.map((item) => {
             const project = projects.find(
-              (project) => project.id === item.projectId,
+              (project) => project.name === item.projectId,
             );
 
             if (!project) return null;
