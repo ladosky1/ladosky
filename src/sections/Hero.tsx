@@ -158,7 +158,7 @@ function Hero() {
                     Current work
                   </p>
                   <p className="mt-0.5 text-xs font-semibold text-white">
-                    AnimeLad
+                    JobApplyTracker
                   </p>
                 </div>
               </div>

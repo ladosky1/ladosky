@@ -56,11 +56,12 @@ export const projects: Project[] = [
 
     image: animeladImage,
     status: ["evolving"],
-    currentVersion: "V2",
+    currentVersion: "V3",
 
     technologies: [
       "React",
-      "JavaScript",
+      "Javascript",
+      "TypeScript",
       "GraphQL",
       "AniList API",
       "Node.js",
@@ -68,6 +69,7 @@ export const projects: Project[] = [
       "MongoDB",
       "Mongoose",
       "JWT",
+      "Tanstack",
     ],
 
     versions: [
@@ -81,6 +83,11 @@ export const projects: Project[] = [
         description:
           "Reworked into a full-stack application with an Express backend, API proxying, authentication, and MongoDB.",
       },
+      {
+        label: "V3",
+        description:
+          "Improved UI, improved features, migrated the whole project to TypeScript and added a watchlist feature using local storage to save user preferences."
+      }
     ],
 
     whatILearned: [
@@ -92,35 +99,28 @@ export const projects: Project[] = [
       "CORS",
       "Service-based backend structure",
       "MongoDB",
-      "Authentication",
+      "Migration from javascript to TypeScript",
+      "Tanstack Query",
     ],
 
     futureImprovements: [
-      "Reconnect the V2 frontend and backend",
-      "Improve the UI and overall UX",
-      "Refine the authentication experience",
-      "Complete and improve the watchlist experience",
+      "Further performance optimization",
+      "Additional anime discovery features",
+      "Improved watchlist management",
+      "Expanded testing and accessibility coverage"
     ],
 
     links: [
       {
-        label: "V1 GitHub",
-        href: "https://github.com/ladosky1/Anime-Finder-App",
-      },
-      {
-        label: "V1 Live",
-        href: "https://animelad.netlify.app/",
-      },
-      {
-        label: "V2 GitHub",
+        label: "V3 GitHub",
         href: "https://github.com/ladosky1/AnimeSearchApp",
       },
       {
-        label: "V2 Frontend",
+        label: "V3 Frontend",
         href: "https://animelad-v2.vercel.app/",
       },
       {
-        label: "V2 Backend",
+        label: "V3 Backend",
         href: "https://animelad.onrender.com",
       },
     ],
@@ -134,6 +134,10 @@ export const projects: Project[] = [
         title: "AnimeLad development",
         href: "https://x.com/ladosky__/status/2007921756124917955",
       },
+      {
+        title: "AnimeLad V3 development",
+        href: "https://x.com/ladosky__/status/2111204822175424744?s=20",
+      }
     ],
   },
 

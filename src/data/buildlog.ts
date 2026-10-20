@@ -43,11 +43,11 @@ export const buildLog: BuildLogEntry[] = [
   {
     id: "animelad-fullstack",
     projectId: "animelad",
-    date: "March 2026",
-    title: "Started the full-stack evolution of AnimeLad",
+    date: "16 OCTOBER 2026",
+    title: "Improved UI, TypeScript, Localstorage Watchlist",
     description:
-      "Took the original frontend AnimeLad project and rebuilt it with a backend, API layer, authentication, and MongoDB.",
+      "Fully reworked the UI, added new features, migrated the whole project to TypeScript and added a watchlist feature using local storage to save user preferences.",
     xUrl:
-      "https://x.com/ladosky__/status/2032413707800637662",
+      "https://x.com/ladosky__/status/2111204822175424744?s=20",
   },
 ];

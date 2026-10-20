@@ -9,16 +9,18 @@ export type BuilderLabItem = {
 
 export const buildersLab: BuilderLabItem[] = [
   {
-    projectId: "AnimeLad",
+    projectId: "JobApplyTracker",
     currentVersion: "V2",
     status: ["shipped", "evolving"],
     currentFocus:
-      "Improving the full anime search and better watchlist experience.",
+      "Improving the architecture and adding meaningful features to the application.",
     next: [
-      "Improve mobile usability",
-      "Implement better search and filtering",
-      "Discard backend auth system and use local storage for watchlist",
-      "Improve the overall UI and UX of the application",
+      "Token expiration handling",
+      "In-app & email job notifications",
+      "Email verification",
+      "Freeelance job board integration",
+      "Interview reminders",
+      "Analytics dashboard",
     ],
     nextMilestone: "V3",
   },

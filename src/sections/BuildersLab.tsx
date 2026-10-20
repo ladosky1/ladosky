@@ -110,7 +110,7 @@ function BuildIllustration() {
           </p>
 
           <p className="mt-1 font-serif text-xl font-semibold text-white md:text-2xl">
-            AnimeLad
+            JobApplyTracker
           </p>
         </div>
 
